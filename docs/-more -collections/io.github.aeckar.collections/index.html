@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>io.github.aeckar.collections</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../index.html">
+                            More Collections
+                    </a>
+            </div>
+            <div class="library-version">
+1.0.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="More Collections::io.github.aeckar.collections////PointingToDeclaration//-251573632">
+  <div class="breadcrumbs"><a href="../../index.html">More Collections</a><span class="delimiter">/</span><span class="current">io.github.aeckar.collections</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><p class="paragraph">Contains utilities for creating aggregate, unboxed, and read-only collections.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1276366285%2FClasslikes%2F-251573632" anchor-label="BooleanList" id="-1276366285%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-boolean-list/index.html"><span>Boolean</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1276366285%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-boolean-list/index.html">BooleanList</a> : <a href="-primitive-list/index.html">PrimitiveList</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A list of unboxed boolean values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1613774145%2FClasslikes%2F-251573632" anchor-label="DataListNode" id="-1613774145%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-data-list-node/index.html"><span>Data</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1613774145%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-data-list-node/index.html">DataListNode</a><span class="token operator">&lt;</span><a href="-data-list-node/index.html">E</a><span class="token operator">&gt;</span> : <a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="-data-list-node/index.html">DataListNode</a><span class="token operator">&lt;</span><a href="-data-list-node/index.html">E</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span>, <a href="-data-node/index.html">DataNode</a><span class="token operator">&lt;</span><a href="-data-list-node/index.html">DataListNode</a><span class="token operator">&lt;</span><a href="-data-list-node/index.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="-data-list-node/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A doubly-linked list node with an assigned value.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="640380349%2FClasslikes%2F-251573632" anchor-label="DataNode" id="640380349%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-data-node/index.html"><span>Data</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="640380349%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-data-node/index.html">DataNode</a><span class="token operator">&lt;</span><a href="-data-node/index.html">Self</a><span class="token operator"> : </span><a href="-data-node/index.html">DataNode</a><span class="token operator">&lt;</span><a href="-data-node/index.html">Self</a><span class="token punctuation">, </span><a href="-data-node/index.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><span class="token keyword">out </span><a href="-data-node/index.html">E</a><span class="token operator">&gt;</span> : <a href="-node/index.html">Node</a><span class="token operator">&lt;</span><a href="-data-node/index.html">Self</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A node that contains a single element.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-778239327%2FClasslikes%2F-251573632" anchor-label="DataPivot" id="-778239327%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-data-pivot/index.html"><span>Data</span><wbr></wbr><span><span>Pivot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-778239327%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="-data-pivot/index.html">P</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">Comparable</a><span class="token operator">&lt;</span><a href="-data-pivot/index.html">P</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="-data-pivot/index.html">V</a><span class="token operator">&gt;</span> : <a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="-data-pivot/index.html">P</a><span class="token punctuation">, </span><a href="-data-pivot/index.html">V</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">An object containing a position and a value.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="694607807%2FClasslikes%2F-251573632" anchor-label="DataTreeNode" id="694607807%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-data-tree-node/index.html"><span>Data</span><wbr></wbr><span>Tree</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="694607807%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-data-tree-node/index.html">DataTreeNode</a><span class="token operator">&lt;</span><a href="-data-tree-node/index.html">E</a><span class="token operator">&gt;</span> : <a href="-mutable-tree-node/index.html">MutableTreeNode</a><span class="token operator">&lt;</span><a href="-data-tree-node/index.html">DataTreeNode</a><span class="token operator">&lt;</span><a href="-data-tree-node/index.html">E</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span>, <a href="-data-node/index.html">DataNode</a><span class="token operator">&lt;</span><a href="-data-tree-node/index.html">DataTreeNode</a><span class="token operator">&lt;</span><a href="-data-tree-node/index.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="-data-tree-node/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A value-containing tree node whose children can be modified.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1580996058%2FClasslikes%2F-251573632" anchor-label="DoubleList" id="1580996058%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-double-list/index.html"><span>Double</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1580996058%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-double-list/index.html">DoubleList</a> : <a href="-primitive-list/index.html">PrimitiveList</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A list of unboxed floating-point numbers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-623957678%2FClasslikes%2F-251573632" anchor-label="HashMultiSet" id="-623957678%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-hash-multi-set/index.html"><span>Hash</span><wbr></wbr><span>Multi</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-623957678%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-hash-multi-set/index.html">HashMultiSet</a><span class="token operator">&lt;</span><a href="-hash-multi-set/index.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">initialCapacity<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>DEFAULT_SIZE<span class="token punctuation">, </span></span><span class="parameter ">loadFactor<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span>DEFAULT_LOAD_FACTOR</span></span><span class="token punctuation">)</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-abstract-set/index.html">AbstractSet</a><span class="token operator">&lt;</span><a href="-hash-multi-set/index.html">E</a><span class="token operator">&gt; </span>, <a href="-mutable-multi-set/index.html">MutableMultiSet</a><span class="token operator">&lt;</span><a href="-hash-multi-set/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A multiset backed by a hashtable.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="732865484%2FClasslikes%2F-251573632" anchor-label="IntList" id="732865484%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-int-list/index.html"><span>Int</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="732865484%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-int-list/index.html">IntList</a> : <a href="-primitive-list/index.html">PrimitiveList</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A list of unboxed integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1314079049%2FClasslikes%2F-251573632" anchor-label="ListNode" id="1314079049%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-list-node/index.html"><span>List</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1314079049%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="-list-node/index.html">Self</a><span class="token operator"> : </span><a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="-list-node/index.html">Self</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span> : <a href="-node/index.html">Node</a><span class="token operator">&lt;</span><a href="-list-node/index.html">Self</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A node in some larger, doubly-linked list.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1910897393%2FClasslikes%2F-251573632" anchor-label="LongList" id="-1910897393%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-long-list/index.html"><span>Long</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1910897393%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-long-list/index.html">LongList</a> : <a href="-primitive-list/index.html">PrimitiveList</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A list of unboxed long integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-173163328%2FClasslikes%2F-251573632" anchor-label="MultiSet" id="-173163328%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-multi-set/index.html"><span>Multi</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-173163328%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-multi-set/index.html">MultiSet</a><span class="token operator">&lt;</span><a href="-multi-set/index.html">E</a><span class="token operator">&gt;</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="-multi-set/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A set capable of containing the same value multiple times. Also called a <i>bag</i>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1528073943%2FClasslikes%2F-251573632" anchor-label="MutableBooleanList" id="-1528073943%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mutable-boolean-list/index.html"><span>Mutable</span><wbr></wbr><span>Boolean</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1528073943%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-mutable-boolean-list/index.html">MutableBooleanList</a> : <a href="-boolean-list/index.html">BooleanList</a></div><div class="brief "><p class="paragraph">A mutable list of unboxed boolean values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1434329124%2FClasslikes%2F-251573632" anchor-label="MutableDoubleList" id="1434329124%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mutable-double-list/index.html"><span>Mutable</span><wbr></wbr><span>Double</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1434329124%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-mutable-double-list/index.html">MutableDoubleList</a> : <a href="-double-list/index.html">DoubleList</a></div><div class="brief "><p class="paragraph">A mutable list of unboxed integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1306512834%2FClasslikes%2F-251573632" anchor-label="MutableIntList" id="1306512834%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mutable-int-list/index.html"><span>Mutable</span><wbr></wbr><span>Int</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1306512834%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-mutable-int-list/index.html">MutableIntList</a> : <a href="-int-list/index.html">IntList</a></div><div class="brief "><p class="paragraph">A mutable list of unboxed integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1307698727%2FClasslikes%2F-251573632" anchor-label="MutableLongList" id="-1307698727%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mutable-long-list/index.html"><span>Mutable</span><wbr></wbr><span>Long</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1307698727%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-mutable-long-list/index.html">MutableLongList</a> : <a href="-long-list/index.html">LongList</a></div><div class="brief "><p class="paragraph">A mutable list of unboxed long integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="430035338%2FClasslikes%2F-251573632" anchor-label="MutableMultiSet" id="430035338%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mutable-multi-set/index.html"><span>Mutable</span><wbr></wbr><span>Multi</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="430035338%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-mutable-multi-set/index.html">MutableMultiSet</a><span class="token operator">&lt;</span><a href="-mutable-multi-set/index.html">E</a><span class="token operator">&gt;</span> : <a href="-multi-set/index.html">MultiSet</a><span class="token operator">&lt;</span><a href="-mutable-multi-set/index.html">E</a><span class="token operator">&gt; </span>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-set/index.html">MutableSet</a><span class="token operator">&lt;</span><a href="-mutable-multi-set/index.html">E</a><span class="token operator">&gt; </span>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-iterable/index.html">MutableIterable</a><span class="token operator">&lt;</span><a href="-mutable-multi-set/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A mutable multiset.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-69307629%2FClasslikes%2F-251573632" anchor-label="MutableTreeNode" id="-69307629%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mutable-tree-node/index.html"><span>Mutable</span><wbr></wbr><span>Tree</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-69307629%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-mutable-tree-node/index.html">MutableTreeNode</a><span class="token operator">&lt;</span><a href="-mutable-tree-node/index.html">Self</a><span class="token operator"> : </span><a href="-mutable-tree-node/index.html">MutableTreeNode</a><span class="token operator">&lt;</span><a href="-mutable-tree-node/index.html">Self</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span> : <a href="-tree-node/index.html">TreeNode</a><span class="token operator">&lt;</span><a href="-mutable-tree-node/index.html">Self</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A tree node whose children can be modified.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1049116345%2FClasslikes%2F-251573632" anchor-label="Node" id="-1049116345%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-node/index.html"><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1049116345%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-node/index.html">Node</a><span class="token operator">&lt;</span><a href="-node/index.html">Self</a><span class="token operator"> : </span><a href="-node/index.html">Node</a><span class="token operator">&lt;</span><a href="-node/index.html">Self</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="-node/index.html">Self</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A node of some larger, aggregate data structure.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1972024276%2FClasslikes%2F-251573632" anchor-label="PrimitiveList" id="1972024276%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-primitive-list/index.html"><span>Primitive</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1972024276%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-primitive-list/index.html">PrimitiveList</a></div><div class="brief "><p class="paragraph">A list of unboxed primitive values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="402827189%2FClasslikes%2F-251573632" anchor-label="ReadOnlyBooleanList" id="402827189%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-boolean-list/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span>Boolean</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="402827189%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-boolean-list/index.html">ReadOnlyBooleanList</a> : <a href="-boolean-list/index.html">BooleanList</a></div><div class="brief "><p class="paragraph">A read-only list of unboxed boolean values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1971107945%2FClasslikes%2F-251573632" anchor-label="ReadOnlyCollection" id="1971107945%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-collection/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span><span>Collection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1971107945%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-collection/index.html">ReadOnlyCollection</a><span class="token operator">&lt;</span><a href="-read-only-collection/index.html">E</a><span class="token operator">&gt;</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/index.html">Collection</a><span class="token operator">&lt;</span><a href="-read-only-collection/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A read-only view of another sequence of elements.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1209997949%2FClasslikes%2F-251573632" anchor-label="ReadOnlyDataTreeNode" id="1209997949%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-data-tree-node/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span>Data</span><wbr></wbr><span>Tree</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1209997949%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-data-tree-node/index.html">ReadOnlyDataTreeNode</a><span class="token operator">&lt;</span><a href="-read-only-data-tree-node/index.html">V</a><span class="token operator">&gt;</span> : <a href="-tree-node/index.html">TreeNode</a><span class="token operator">&lt;</span><a href="-read-only-data-tree-node/index.html">ReadOnlyDataTreeNode</a><span class="token operator">&lt;</span><a href="-read-only-data-tree-node/index.html">V</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span>, <a href="-data-node/index.html">DataNode</a><span class="token operator">&lt;</span><a href="-read-only-data-tree-node/index.html">ReadOnlyDataTreeNode</a><span class="token operator">&lt;</span><a href="-read-only-data-tree-node/index.html">V</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="-read-only-data-tree-node/index.html">V</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A read-only view over another, data-containing, tree node.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="111142936%2FClasslikes%2F-251573632" anchor-label="ReadOnlyDoubleList" id="111142936%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-double-list/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span>Double</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="111142936%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-double-list/index.html">ReadOnlyDoubleList</a> : <a href="-double-list/index.html">DoubleList</a></div><div class="brief "><p class="paragraph">A read-only list of unboxed floating-point numbers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1596970418%2FClasslikes%2F-251573632" anchor-label="ReadOnlyIntList" id="-1596970418%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-int-list/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span>Int</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1596970418%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-int-list/index.html">ReadOnlyIntList</a> : <a href="-int-list/index.html">IntList</a></div><div class="brief "><p class="paragraph">A read-only list of unboxed integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1397522711%2FClasslikes%2F-251573632" anchor-label="ReadOnlyList" id="-1397522711%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-list/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1397522711%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-list/index.html">ReadOnlyList</a><span class="token operator">&lt;</span><a href="-read-only-list/index.html">E</a><span class="token operator">&gt;</span> : <a href="-read-only-collection/index.html">ReadOnlyCollection</a><span class="token operator">&lt;</span><a href="-read-only-list/index.html">E</a><span class="token operator">&gt; </span>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="-read-only-list/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A read-only view of another list.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1121366323%2FClasslikes%2F-251573632" anchor-label="ReadOnlyLongList" id="-1121366323%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-long-list/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span>Long</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1121366323%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-long-list/index.html">ReadOnlyLongList</a> : <a href="-long-list/index.html">LongList</a></div><div class="brief "><p class="paragraph">A read-only list of unboxed long integers.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-464070145%2FClasslikes%2F-251573632" anchor-label="ReadOnlyMap" id="-464070145%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-map/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span><span>Map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-464070145%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-map/index.html">ReadOnlyMap</a><span class="token operator">&lt;</span><a href="-read-only-map/index.html">K</a><span class="token punctuation">, </span><a href="-read-only-map/index.html">V</a><span class="token operator">&gt;</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="-read-only-map/index.html">K</a><span class="token punctuation">, </span><a href="-read-only-map/index.html">V</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A read-only view over another map.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="616367742%2FClasslikes%2F-251573632" anchor-label="ReadOnlyMultiSet" id="616367742%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-multi-set/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span>Multi</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="616367742%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-multi-set/index.html">ReadOnlyMultiSet</a><span class="token operator">&lt;</span><a href="-read-only-multi-set/index.html">E</a><span class="token operator">&gt;</span> : <a href="-multi-set/index.html">MultiSet</a><span class="token operator">&lt;</span><a href="-read-only-multi-set/index.html">E</a><span class="token operator">&gt; </span>, <a href="-read-only-set/index.html">ReadOnlySet</a><span class="token operator">&lt;</span><a href="-read-only-multi-set/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A read-only view over another multiset.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1978045881%2FClasslikes%2F-251573632" anchor-label="ReadOnlySet" id="1978045881%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-read-only-set/index.html"><span>Read</span><wbr></wbr><span>Only</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1978045881%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-read-only-set/index.html">ReadOnlySet</a><span class="token operator">&lt;</span><a href="-read-only-set/index.html">E</a><span class="token operator">&gt;</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="-read-only-set/index.html">E</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A read-only view over another set.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-672506295%2FClasslikes%2F-251573632" anchor-label="TreeNode" id="-672506295%2FClasslikes%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-tree-node/index.html"><span>Tree</span><wbr></wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-672506295%2FClasslikes%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-tree-node/index.html">TreeNode</a><span class="token operator">&lt;</span><a href="-tree-node/index.html">Self</a><span class="token operator"> : </span><a href="-tree-node/index.html">TreeNode</a><span class="token operator">&lt;</span><a href="-tree-node/index.html">Self</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span> : <a href="-node/index.html">Node</a><span class="token operator">&lt;</span><a href="-tree-node/index.html">Self</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">A node in some larger, singly-linked tree.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-404731590%2FFunctions%2F-251573632" anchor-label="buildMultiSet" id="-404731590%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build-multi-set.html"><span>build</span><wbr></wbr><span>Multi</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-404731590%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">inline </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="build-multi-set.html">E</a><span class="token operator">&gt; </span><a href="build-multi-set.html"><span class="token function">buildMultiSet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builder<span class="token operator">: </span><a href="-mutable-multi-set/index.html">MutableMultiSet</a><span class="token operator">&lt;</span><a href="build-multi-set.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-multi-set/index.html">ReadOnlyMultiSet</a><span class="token operator">&lt;</span><a href="build-multi-set.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a read-only view over a new multiset.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="943324531%2FFunctions%2F-251573632" anchor-label="buildTree" id="943324531%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build-tree.html"><span>build</span><wbr></wbr><span><span>Tree</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="943324531%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">inline </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="build-tree.html">E</a><span class="token operator">&gt; </span><a href="build-tree.html"><span class="token function">buildTree</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rootElement<span class="token operator">: </span><a href="build-tree.html">E</a><span class="token punctuation">, </span></span><span class="parameter ">builder<span class="token operator">: </span><a href="-data-tree-node/index.html">DataTreeNode</a><span class="token operator">&lt;</span><a href="build-tree.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-data-tree-node/index.html">ReadOnlyDataTreeNode</a><span class="token operator">&lt;</span><a href="build-tree.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a read-only view of a tree whose nodes contain the given elements.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1033540210%2FFunctions%2F-251573632" anchor-label="emptyMultiSet" id="-1033540210%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="empty-multi-set.html"><span>empty</span><wbr></wbr><span>Multi</span><wbr></wbr><span><span>Set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1033540210%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="empty-multi-set.html">E</a><span class="token operator">&gt; </span><a href="empty-multi-set.html"><span class="token function">emptyMultiSet</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-multi-set/index.html">ReadOnlyMultiSet</a><span class="token operator">&lt;</span><a href="empty-multi-set.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an empty, read-only multiset.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1820851653%2FFunctions%2F-251573632" anchor-label="headOf" id="-1820851653%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="head-of.html"><span>head</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1820851653%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="head-of.html">E</a><span class="token operator">&gt; </span><a href="head-of.html"><span class="token function">headOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>elements<span class="token operator">: </span><a href="head-of.html">E</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-list-node/index.html">DataListNode</a><span class="token operator">&lt;</span><a href="head-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns the head of the doubly-linked list created with the given elements.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1885515733%2FFunctions%2F-251573632" anchor-label="headPivotOf" id="1885515733%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="head-pivot-of.html"><span>head</span><wbr></wbr><span>Pivot</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1885515733%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="head-pivot-of.html">P</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">Comparable</a><span class="token operator">&lt;</span><a href="head-pivot-of.html">P</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="head-pivot-of.html">V</a><span class="token operator">&gt; </span><a href="head-pivot-of.html"><span class="token function">headPivotOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>pairs<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="head-pivot-of.html">P</a><span class="token punctuation">, </span><a href="head-pivot-of.html">V</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="head-pivot-of.html">P</a><span class="token punctuation">, </span><a href="head-pivot-of.html">V</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns the head of the doubly-linked list of pivots containing the given positions and values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-170450753%2FFunctions%2F-251573632" anchor-label="listNodeOf" id="-170450753%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="list-node-of.html"><span>list</span><wbr></wbr><span>Node</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-170450753%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="list-node-of.html">E</a><span class="token operator">&gt; </span><a href="list-node-of.html"><span class="token function">listNodeOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="list-node-of.html">E</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-list-node/index.html">DataListNode</a><span class="token operator">&lt;</span><a href="list-node-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a doubly-linked list node containing the given element.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="43053518%2FFunctions%2F-251573632" anchor-label="multiSetOf" id="43053518%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="multi-set-of.html"><span>multi</span><wbr></wbr><span>Set</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="43053518%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="multi-set-of.html">E</a><span class="token operator">&gt; </span><a href="multi-set-of.html"><span class="token function">multiSetOf</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-multi-set/index.html">ReadOnlyMultiSet</a><span class="token operator">&lt;</span><a href="multi-set-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an empty, read-only multiset.</p></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="multi-set-of.html">E</a><span class="token operator">&gt; </span><a href="multi-set-of.html"><span class="token function">multiSetOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>elements<span class="token operator">: </span><a href="multi-set-of.html">E</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-multi-set/index.html">ReadOnlyMultiSet</a><span class="token operator">&lt;</span><a href="multi-set-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a read-only multiset containing the given elements.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2009171882%2FFunctions%2F-251573632" anchor-label="mutableMultiSetOf" id="2009171882%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="mutable-multi-set-of.html"><span>mutable</span><wbr></wbr><span>Multi</span><wbr></wbr><span>Set</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2009171882%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="mutable-multi-set-of.html">E</a><span class="token operator">&gt; </span><a href="mutable-multi-set-of.html"><span class="token function">mutableMultiSetOf</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-mutable-multi-set/index.html">MutableMultiSet</a><span class="token operator">&lt;</span><a href="mutable-multi-set-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an empty, mutable multiset.</p></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="mutable-multi-set-of.html">E</a><span class="token operator">&gt; </span><a href="mutable-multi-set-of.html"><span class="token function">mutableMultiSetOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>elements<span class="token operator">: </span><a href="mutable-multi-set-of.html">E</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-mutable-multi-set/index.html">MutableMultiSet</a><span class="token operator">&lt;</span><a href="mutable-multi-set-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a mutable multiset containing the given elements.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-997595389%2FFunctions%2F-251573632" anchor-label="pivotOf" id="-997595389%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="pivot-of.html"><span>pivot</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-997595389%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="pivot-of.html">P</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">Comparable</a><span class="token operator">&lt;</span><a href="pivot-of.html">P</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="pivot-of.html">V</a><span class="token operator">&gt; </span><a href="pivot-of.html"><span class="token function">pivotOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="pivot-of.html">P</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="pivot-of.html">V</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="pivot-of.html">P</a><span class="token punctuation">, </span><a href="pivot-of.html">V</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a <a href="-data-pivot/index.html">DataPivot</a> with the given position and value.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-373524309%2FFunctions%2F-251573632" anchor-label="tailOf" id="-373524309%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="tail-of.html"><span>tail</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-373524309%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="tail-of.html">E</a><span class="token operator">&gt; </span><a href="tail-of.html"><span class="token function">tailOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>elements<span class="token operator">: </span><a href="tail-of.html">E</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-list-node/index.html">DataListNode</a><span class="token operator">&lt;</span><a href="tail-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns the tail of the doubly-linked list created with the given elements.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1056607387%2FFunctions%2F-251573632" anchor-label="tailPivotOf" id="-1056607387%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="tail-pivot-of.html"><span>tail</span><wbr></wbr><span>Pivot</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1056607387%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="tail-pivot-of.html">P</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">Comparable</a><span class="token operator">&lt;</span><a href="tail-pivot-of.html">P</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="tail-pivot-of.html">V</a><span class="token operator">&gt; </span><a href="tail-pivot-of.html"><span class="token function">tailPivotOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>pairs<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="tail-pivot-of.html">P</a><span class="token punctuation">, </span><a href="tail-pivot-of.html">V</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="tail-pivot-of.html">P</a><span class="token punctuation">, </span><a href="tail-pivot-of.html">V</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns the tail of the doubly-linked list of pivots containing the given positions and values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-732453953%2FFunctions%2F-251573632" anchor-label="treeNodeOf" id="-732453953%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="tree-node-of.html"><span>tree</span><wbr></wbr><span>Node</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-732453953%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="tree-node-of.html">E</a><span class="token operator">&gt; </span><a href="tree-node-of.html"><span class="token function">treeNodeOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="tree-node-of.html">E</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-tree-node/index.html">DataTreeNode</a><span class="token operator">&lt;</span><a href="tree-node-of.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a mutable tree node containing the given element.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="EXTENSION_FUNCTION">
+        <h2 class="">Inherited functions</h2>
+        <div class="table"><a data-name="731320581%2FFunctions%2F-251573632" anchor-label="component1" id="731320581%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="component1.html"><span><span>component1</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="731320581%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">operator </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="component1.html">E</a><span class="token operator">&gt; </span><a href="-data-node/index.html">DataNode</a><span class="token operator">&lt;</span><span class="token operator">*</span><span class="token punctuation">, </span><a href="component1.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="component1.html"><span class="token function">component1</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="component1.html">E</a></div><div class="brief "><p class="paragraph">Returns the single element contained by this node.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1220635478%2FFunctions%2F-251573632" anchor-label="downToHead" id="1220635478%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="down-to-head.html"><span>down</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Head</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1220635478%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="down-to-head.html">Self</a><span class="token operator"> : </span><a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="down-to-head.html">Self</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span><a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="down-to-head.html">Self</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">.</span><a href="down-to-head.html"><span class="token function">downToHead</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="down-to-head.html">Self</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an iterator over every element in this linked list, up to and including this node, starting from this node.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1460560217%2FFunctions%2F-251573632" anchor-label="getOrInsert" id="1460560217%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-or-insert.html"><span>get</span><wbr></wbr><span>Or</span><wbr></wbr><span><span>Insert</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1460560217%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="get-or-insert.html">V</a><span class="token punctuation">, </span><a href="get-or-insert.html">P</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">Comparable</a><span class="token operator">&lt;</span><a href="get-or-insert.html">P</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="get-or-insert.html">P</a><span class="token punctuation">, </span><a href="get-or-insert.html">V</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="get-or-insert.html"><span class="token function">getOrInsert</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="get-or-insert.html">P</a><span class="token punctuation">, </span></span><span class="parameter ">lazyValue<span class="token operator">: </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="get-or-insert.html">V</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-data-pivot/index.html">DataPivot</a><span class="token operator">&lt;</span><a href="get-or-insert.html">P</a><span class="token punctuation">, </span><a href="get-or-insert.html">V</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns the pivot whose position has a <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">total ordering</a> equal to the one given.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1709297437%2FFunctions%2F-251573632" anchor-label="readOnly" id="-1709297437%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="read-only.html"><span>read</span><wbr></wbr><span><span>Only</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1709297437%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="-boolean-list/index.html">BooleanList</a><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-boolean-list/index.html">ReadOnlyBooleanList</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-double-list/index.html">DoubleList</a><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-double-list/index.html">ReadOnlyDoubleList</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-int-list/index.html">IntList</a><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-int-list/index.html">ReadOnlyIntList</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-long-list/index.html">LongList</a><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-long-list/index.html">ReadOnlyLongList</a></div><div class="brief "><p class="paragraph">Returns a read-only view over this list.</p></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt; </span><a href="-data-tree-node/index.html">DataTreeNode</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-data-tree-node/index.html">ReadOnlyDataTreeNode</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a read-only view over this tree node.</p></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt; </span><a href="-multi-set/index.html">MultiSet</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-multi-set/index.html">ReadOnlyMultiSet</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-list/index.html">ReadOnlyList</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-set/index.html">ReadOnlySet</a><span class="token operator">&lt;</span><a href="read-only.html">E</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a read-only view over this collection.</p></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="read-only.html">K</a><span class="token punctuation">, </span><a href="read-only.html">V</a><span class="token operator">&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="read-only.html">K</a><span class="token punctuation">, </span><a href="read-only.html">V</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="read-only.html"><span class="token function">readOnly</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-read-only-map/index.html">ReadOnlyMap</a><span class="token operator">&lt;</span><a href="read-only.html">K</a><span class="token punctuation">, </span><a href="read-only.html">V</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a read-only view over this map.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1905396532%2FFunctions%2F-251573632" anchor-label="toArrayList" id="-1905396532%2FFunctions%2F-251573632" data-filterable-set=":/main"></a>
+          <div class="table-row" data-filterable-current=":/main" data-filterable-set=":/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="to-array-list.html"><span>to</span><wbr></wbr><span>Array</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1905396532%2FFunctions%2F-251573632"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="to-array-list.html">Self</a><span class="token operator"> : </span><a href="-list-node/index.html">ListNode</a><span class="token operator">&lt;</span><a href="to-array-list.html">Self</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span><a href="to-array-list.html">Self</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="to-array-list.html"><span class="token function">toArrayList</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="to-array-list.html">Self</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns a list containing all nodes in this linked list.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© Angel Eckardt</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
