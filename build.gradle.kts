@@ -4,6 +4,7 @@ plugins {
     kotlin("jvm") version "2.0.21"
     id("dev.adamko.dokkatoo-html") version "2.3.1"
     id("org.jetbrains.kotlinx.kover") version "0.8.3"
+    `maven-publish`
 }
 
 val buildDir = layout.buildDirectory.get()
