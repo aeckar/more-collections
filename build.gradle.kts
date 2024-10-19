@@ -74,11 +74,11 @@ kover {
     }
 }
 
-tasks.register<Sync>("ensureGradleWrapperIsExecutable") {
+tasks.register("ensureGradleWrapperIsExecutable") {
     Runtime.getRuntime().exec(arrayOf("git", "update-index", "--chmod=+x", "gradlew"))
 }
 
-tasks.register<Sync>("generateDocumentation") {
+tasks.register("generateDocumentation") {
     group = "documentation"
     description = "Generates HTML documentation from KDoc comments and moves them to /docs"
     dependsOn("dokkatooGenerate")
@@ -91,7 +91,7 @@ tasks.register<Sync>("generateDocumentation") {
     }
 }
 
-tasks.register<Sync>("updateReadmeVersion") {
+tasks.register("updateReadmeVersion") {
     group = "documentation"
     description = "Updates the library version as shown in README.md"
 
