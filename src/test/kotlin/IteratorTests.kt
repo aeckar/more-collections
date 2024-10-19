@@ -78,6 +78,7 @@ class IteratorTests {
         TEST_STRING.pivotIterator { mutableListOf(0) }.testPivoting()
     }
 
+// BUG: Only works locally
 //    @Test
 //    fun revertible_source_iterator() {
 //        getSource().revertibleIterator().testReverting(TEST_STRING.toList())

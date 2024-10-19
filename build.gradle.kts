@@ -16,6 +16,18 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = group.toString()
+            artifactId = project.name
+            version = version.toString()
+
+            from(components["kotlin"])
+        }
+    }
+}
+
 tasks.test {
     useJUnitPlatform()
 }
