@@ -45,7 +45,7 @@ dokkatoo {
     }
 }
 
-kover{
+kover {
     reports {
         filters.excludes {
             annotatedBy("io.github.aeckar.utils.KoverExclude")
@@ -59,6 +59,10 @@ kover{
             minBound(70)
         }
     }
+}
+
+tasks.register<Sync>("ensureGradleWrapperIsExecutable") {
+    Runtime.getRuntime().exec(arrayOf("git", "update-index", "--chmod=+x", "gradlew"))
 }
 
 tasks.register<Sync>("generateDocumentation") {
@@ -117,6 +121,7 @@ tasks.register("printLineCoverage") {
 }
 
 tasks["build"].dependsOn(
+    tasks["ensureGradleWrapperIsExecutable"],
     tasks["generateDocumentation"],
     tasks["updateReadmeVersion"],
     tasks["koverVerify"]
