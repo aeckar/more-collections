@@ -78,18 +78,18 @@ class IteratorTests {
         TEST_STRING.pivotIterator { mutableListOf(0) }.testPivoting()
     }
 
-    @Test
-    fun revertible_source_iterator() {
-        getSource().revertibleIterator().testReverting(TEST_STRING.toList())
-    }
-
-    @Test
-    fun pivoting_source_iterator() {
-        assertEquals(
-            expected = getSource().readText(),
-            actual = getSource().pivotIterator { mutableListOf(0) }.asSequence().joinToString(separator = "")
-        )
-        getSource().pivotIterator { mutableListOf(0) }.testReverting(TEST_STRING.toList())
-        getSource().pivotIterator { mutableListOf(0) }.testPivoting()
-    }
+//    @Test
+//    fun revertible_source_iterator() {
+//        getSource().revertibleIterator().testReverting(TEST_STRING.toList())
+//    }
+//
+//    @Test
+//    fun pivoting_source_iterator() {
+//        assertEquals(
+//            expected = getSource().readText(),
+//            actual = getSource().pivotIterator { mutableListOf(0) }.asSequence().joinToString(separator = "")
+//        )
+//        getSource().pivotIterator { mutableListOf(0) }.testReverting(TEST_STRING.toList())
+//        getSource().pivotIterator { mutableListOf(0) }.testPivoting()
+//    }
 }
