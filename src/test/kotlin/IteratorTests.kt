@@ -51,7 +51,7 @@ private fun PivotIterator<*, *, MutableList<Int>>.testPivoting() {
     )
 }
 
-fun getSource() = StringReader(TEST_STRING)
+//fun getSource() = StringReader(TEST_STRING)
 
 class IteratorTests {
     @Test

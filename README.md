@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.aeckar:more-collections:v1.0.0")
+    implementation("com.github.aeckar:more-collections:1.0.1")
 }
 ```
 

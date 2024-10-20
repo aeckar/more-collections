@@ -1,5 +1,6 @@
 import io.github.aeckar.collections.buildMultiSet
 import io.github.aeckar.collections.emptyMultiSet
+import io.github.aeckar.collections.multiSetOf
 import io.github.aeckar.collections.mutableMultiSetOf
 import kotlin.random.Random
 import kotlin.random.nextInt
@@ -43,5 +44,15 @@ class MultiSetTests {
         for (element in empty.iterator()) {
             fail("Multi-set is not empty")
         }
+    }
+
+    @Test
+    fun partial_removal() {
+        val elements = mutableMultiSetOf(1,2,3,1)
+        check(elements.count(1) == 2)
+        elements.remove(1)
+        check(elements.count(1) == 1)
+        elements.remove(1)
+        check(elements.count(1) == 0)
     }
 }

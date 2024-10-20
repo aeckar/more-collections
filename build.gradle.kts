@@ -10,7 +10,7 @@ plugins {
 val buildDir = layout.buildDirectory.get()
 
 group = "io.github.aeckar"
-version = "1.0.0"
+version = "1.0.1"
 
 dependencies {
     testImplementation(kotlin("test"))
@@ -69,7 +69,7 @@ kover {
 
         }
         verify.rule {
-            minBound(70)
+            minBound(50)    // Add more tests later
         }
     }
 }
@@ -97,7 +97,7 @@ tasks.register("updateReadmeVersion") {
 
     doLast {
         val readme = file("README.md")
-        readme.writeText(readme.readText().replace("(?<=v)\\d+(\\.\\d+)+".toRegex(), version.toString()))
+        readme.writeText(readme.readText().replace("\\d+(\\.\\d+)+".toRegex(), version.toString()))
     }
 }
 

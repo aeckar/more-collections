@@ -110,20 +110,20 @@ public class HashMultiSet<E>(
         private set
 
     private var table = Array<Any?>(initialCapacity) { Absent }
-    private var counters = IntArray(initialCapacity)
+    private var counters = IntArray(initialCapacity)    // Same indices as table
 
     init {
         require(loadFactor in 0.0..1.0) { "Invalid load factor: $loadFactor" }
     }
 
     override fun removeAll(elements: Collection<E>): Boolean {
-        elements.forEach { removeAt(hashIndexOf(it)) }
+        elements.forEach { remove(it) }
         return elements.isNotEmpty()
     }
 
     override fun remove(element: E): Boolean {
         val index = hashIndexOf(element)
-        return (element == table[index]) implies { removeAt(index) }
+        return (element == table[index]) implies { removeAtIndex(index) }
     }
 
     override fun count(element: E): Int {
@@ -131,10 +131,15 @@ public class HashMultiSet<E>(
         return if (element != table[index]) 0 else counters[index]
     }
     
-    private fun removeAt(index: Int) {
-        orNoSuchElement { table[index] = Absent }
-        counters[index] = 0
-        --size
+    private fun removeAtIndex(index: Int) {
+        if (counters[index] == 0) {
+            return
+        }
+        if (counters[index] == 1) {
+            table[index] = Absent
+            --size
+        }
+        --counters[index]
     }
 
     /**
@@ -145,7 +150,7 @@ public class HashMultiSet<E>(
             moveToNext()
         }
 
-        override fun remove() = removeAt(position)
+        override fun remove() = orNoSuchElement { removeAtIndex(position) }
         override fun hasNext() = position != table.size
 
         @Suppress("UNCHECKED_CAST")
